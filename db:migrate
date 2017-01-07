@@ -1,0 +1,30 @@
+BMON(1)                     General Commands Manual                    BMON(1)
+
+NNAAMMEE
+       btmon - Bluetooth monitor
+
+SSYYNNOOPPSSIISS
+       bbttmmoonn
+
+DDEESSCCRRIIPPTTIIOONN
+       bbttmmoonn is Bluetooth monitor
+
+UUSSAAGGEE
+       btmon [options]
+
+       Options:
+         --rr, ----rreeaadd <file>      Read traces in btsnoop format
+         --ww, ----wwrriittee <file>     Save traces in btsnoop format
+         --ss, ----sseerrvveerr <socket>  Start monitor server socket
+         --ii, ----iinnddeexx <num>      Show only specified controller
+         --tt, ----ttiimmee             Show time instead of time offset
+         --TT, ----ddaattee             Show time and date information
+         --SS, ----ssccoo              Dump SCO traffic
+         --hh, ----hheellpp             Show help options
+
+AAUUTTHHOORR
+       This   manual   page   was   written   by   Nobuhiro   Iwamatsu   <iwa‐
+       matsu@debian.org>, for the Debian GNU/Linux system (but may be used  by
+       others).
+
+                                   May 2013                            BMON(1)
